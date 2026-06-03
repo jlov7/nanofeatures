@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.python-version
+*.egg-info/
+.DS_Store
+
+# scratch logs / smoke outputs
+reports/_*
+reports/*.log
