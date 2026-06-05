@@ -1,0 +1,28 @@
+[
+  {
+    "task": "capitals",
+    "l1": 5,
+    "l2": 7,
+    "metric_absmean": 15.06488037109375,
+    "bf16_ulp_at_metric": 0.05884718894958496,
+    "exact_effect_absmax": 0.0003173828008584678,
+    "metric_snr": 0.005393338348419211,
+    "relerr_transfer": 1.2030530814563551,
+    "relerr_grad2": 0.031437964534338274,
+    "relerr_exact_effect": 104.40480932066608,
+    "spearman_exact_fp32_vs_bf16": 0.19217389822006226
+  },
+  {
+    "task": "ioi",
+    "l1": 5,
+    "l2": 7,
+    "metric_absmean": 1.7132277488708496,
+    "bf16_ulp_at_metric": 0.006692295894026756,
+    "exact_effect_absmax": 0.04659642279148102,
+    "metric_snr": 6.96269614035908,
+    "relerr_transfer": 0.0878208956631346,
+    "relerr_grad2": 0.033233024686479,
+    "relerr_exact_effect": 0.918261534559966,
+    "spearman_exact_fp32_vs_bf16": 0.47217386960983276
+  }
+]

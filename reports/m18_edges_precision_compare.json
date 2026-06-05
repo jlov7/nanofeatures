@@ -1,0 +1,67 @@
+{
+  "description": "Edge precision validation. bf16 collapses the edge result: eap-vs-exact residual jumps and cheap_fdpos-vs-exact rho falls to ~0. Mechanism (see per-cell 'mechanism' and diag_edge_precision): the GRADIENT readout is bf16-robust (relerr ~0.03); the collapse is in the EXACT mediated-effect reference and the TRANSFER measurement, both differences of near-identical full-network forward passes under a tiny perturbation, which bf16 cannot resolve. Confirmed on CPU (bf16_cpu) -> a dtype effect, not an MPS artifact. Node sufficiency (M17 9B) survives bf16 because its effects are large; edge validation needs fp32 because the exact reference is a fragile perturbation-difference.",
+  "cells": [
+    {
+      "task": "capitals",
+      "layers": "5->7",
+      "eap_vs_exact_rel_residual": {
+        "fp32": 0.11669804152033698,
+        "bf16": 0.9274408273897303
+      },
+      "cheap_fdpos_vs_exact_rho": {
+        "fp32": 0.9906675219535828,
+        "bf16": -0.002186601283028722
+      },
+      "eap_minus_strongest_gradfree": {
+        "fp32": 0.7787603735923767,
+        "bf16": 0.08721647411584854
+      },
+      "exact_absmax_meanrows": {
+        "fp32": 0.07150711864233017,
+        "bf16": 0.06875000149011612
+      },
+      "bf16_cpu": {
+        "eap_vs_exact_rel_residual": 0.9648582063176772,
+        "cheap_fdpos_vs_exact_rho": 0.03611573204398155
+      },
+      "mechanism": {
+        "relerr_transfer": 1.2030530814563551,
+        "relerr_grad2": 0.031437964534338274,
+        "relerr_exact_effect": 104.40480932066608,
+        "spearman_exact_fp32_vs_bf16": 0.19217389822006226,
+        "metric_snr": 0.005393338348419211
+      }
+    },
+    {
+      "task": "ioi",
+      "layers": "5->7",
+      "eap_vs_exact_rel_residual": {
+        "fp32": 0.0889179189209606,
+        "bf16": 0.9664938238680065
+      },
+      "cheap_fdpos_vs_exact_rho": {
+        "fp32": 0.9899929165840149,
+        "bf16": 0.018721936270594597
+      },
+      "eap_minus_strongest_gradfree": {
+        "fp32": 0.9746752381324768,
+        "bf16": 0.027054205536842346
+      },
+      "exact_absmax_meanrows": {
+        "fp32": 0.04659843444824219,
+        "bf16": 0.0625
+      },
+      "bf16_cpu": {
+        "eap_vs_exact_rel_residual": 0.9909508548673746,
+        "cheap_fdpos_vs_exact_rho": 0.04268999025225639
+      },
+      "mechanism": {
+        "relerr_transfer": 0.0878208956631346,
+        "relerr_grad2": 0.033233024686479,
+        "relerr_exact_effect": 0.918261534559966,
+        "spearman_exact_fp32_vs_bf16": 0.47217386960983276,
+        "metric_snr": 6.96269614035908
+      }
+    }
+  ]
+}

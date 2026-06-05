@@ -1,0 +1,65 @@
+{
+  "layer": 7,
+  "k": 32,
+  "n": 18,
+  "distributedness_PR": 1.4876134395599365,
+  "str_tokens": [
+    "<bos>",
+    "When",
+    " Karen",
+    " and",
+    " Julia",
+    " went",
+    " to",
+    " the",
+    " store",
+    ",",
+    " Julia",
+    " gave",
+    " a",
+    " drink",
+    " to"
+  ],
+  "position_causal_relevance": {
+    "1": 0.0,
+    "2": 1.59,
+    "3": 0.012,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.002,
+    "9": 0.001,
+    "10": 0.392,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 0.0
+  },
+  "most_relevant_positions": [
+    2,
+    10,
+    3,
+    8
+  ],
+  "attribution": {
+    "mean_position_relevance": 1.2910663574163759,
+    "frac_at_high_relevance": 0.90625,
+    "position_histogram": {
+      "2": 25,
+      "4": 3,
+      "10": 4
+    }
+  },
+  "diff_mag_max": {
+    "mean_position_relevance": 0.7690835602662646,
+    "frac_at_high_relevance": 0.625,
+    "position_histogram": {
+      "2": 14,
+      "4": 11,
+      "5": 1,
+      "10": 6
+    }
+  },
+  "attr_minus_dmm_position_relevance": 0.5219827971501113
+}

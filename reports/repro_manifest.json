@@ -1,0 +1,40 @@
+{
+  "python": "3.12.10",
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "packages": {
+    "torch": "2.12.0",
+    "transformer_lens": "3.3.0",
+    "sae_lens": "6.44.2",
+    "transformers": "5.10.1",
+    "numpy": "2.4.6",
+    "huggingface_hub": "1.17.0"
+  },
+  "artifacts": {
+    "gemma-2-2b": "transformer_lens HookedTransformer",
+    "gemma-2-9b": "transformer_lens HookedTransformer (no_processing)",
+    "gpt2": "transformer_lens HookedTransformer",
+    "gemma-scope-2b-pt-res-canonical": "sae_lens SAE",
+    "gemma-scope-9b-pt-res-canonical": "sae_lens SAE",
+    "gpt2-small-res-jb": "sae_lens SAE"
+  },
+  "hf_cached_revisions": {
+    "jbloom/GPT2-Small-SAEs-Reformatted": [
+      "57d08a4fd333fbf18caf3fbea63ceeb88e2f50d9"
+    ],
+    "google/gemma-2-9b": [
+      "33c193028431c2fde6c6e51f29e6f17b60cbfac6"
+    ],
+    "google/gemma-2-2b": [
+      "c5ebcd40d208330abc697524c919956e692655cf"
+    ],
+    "gpt2": [
+      "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+    ],
+    "google/gemma-scope-2b-pt-res": [
+      "fd571b47c1c64851e9b1989792367b9babb4af63"
+    ],
+    "google/gemma-scope-9b-pt-res": [
+      "f9b689815814972562d28082f9f7d65d7e01fdc8"
+    ]
+  }
+}

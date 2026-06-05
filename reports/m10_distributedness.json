@@ -1,0 +1,125 @@
+{
+  "layer": 7,
+  "k": 32,
+  "rows": [
+    {
+      "task": "capitals",
+      "n": 20,
+      "distributedness_PR": 1.0362091064453125,
+      "gap_med": 0.054117798805236816,
+      "gap_lo": 0.006249371916055679,
+      "gap_hi": 0.09817775338888168,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.5185397267341614
+    },
+    {
+      "task": "antonyms",
+      "n": 24,
+      "distributedness_PR": 1.163885235786438,
+      "gap_med": -0.0824165940284729,
+      "gap_lo": -0.16536545753479004,
+      "gap_hi": -0.005131626967340708,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.5435842275619507
+    },
+    {
+      "task": "country_language",
+      "n": 20,
+      "distributedness_PR": 1.0452288389205933,
+      "gap_med": 0.008419215679168701,
+      "gap_lo": -0.01819579117000103,
+      "gap_hi": 0.0335954912006855,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.5627329349517822
+    },
+    {
+      "task": "past_tense",
+      "n": 30,
+      "distributedness_PR": 1.0151033401489258,
+      "gap_med": 0.020596206188201904,
+      "gap_lo": -0.02349182777106762,
+      "gap_hi": 0.05933203175663948,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.6584118604660034
+    },
+    {
+      "task": "comparative",
+      "n": 24,
+      "distributedness_PR": 1.0757943391799927,
+      "gap_med": 0.03295588493347168,
+      "gap_lo": -0.0028589442372322083,
+      "gap_hi": 0.0703064352273941,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.7576934099197388
+    },
+    {
+      "task": "plural",
+      "n": 16,
+      "distributedness_PR": 1.0385361909866333,
+      "gap_med": 0.006783246994018555,
+      "gap_lo": -0.04033758491277695,
+      "gap_hi": 0.04915638640522957,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.5228251814842224
+    },
+    {
+      "task": "successor",
+      "n": 11,
+      "distributedness_PR": 1.035701870918274,
+      "gap_med": -0.06476855278015137,
+      "gap_lo": -0.1618555635213852,
+      "gap_hi": 0.02697792463004589,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.8932480812072754
+    },
+    {
+      "task": "capitals_2tok",
+      "n": 9,
+      "distributedness_PR": 1.292513370513916,
+      "gap_med": 0.1267869472503662,
+      "gap_lo": 0.04374796897172928,
+      "gap_hi": 0.2130080610513687,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.6609140038490295
+    },
+    {
+      "task": "city_country_2tok",
+      "n": 8,
+      "distributedness_PR": 1.6009522676467896,
+      "gap_med": 0.17954936623573303,
+      "gap_lo": 0.10797476768493652,
+      "gap_hi": 0.24102672934532166,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.652283251285553
+    },
+    {
+      "task": "person_country_2tok",
+      "n": 7,
+      "distributedness_PR": 1.191576600074768,
+      "gap_med": 0.2750212848186493,
+      "gap_lo": 0.14981792867183685,
+      "gap_hi": 0.44212695956230164,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.603043258190155
+    },
+    {
+      "task": "ioi",
+      "n": 18,
+      "distributedness_PR": 1.4876134395599365,
+      "gap_med": 0.2494930624961853,
+      "gap_lo": 0.1534675657749176,
+      "gap_hi": 0.347775936126709,
+      "strongest_cheap": "diff_mag_max",
+      "attr_suff": 0.6215564012527466
+    }
+  ],
+  "single_vs_multi_mannwhitney_u": 38.0,
+  "single_vs_multi_p_onesided": 0.0030303030303030303,
+  "perfect_separation": true,
+  "spearman_rho": 0.6181818181818182,
+  "spearman_rho_ci": [
+    0.013953489251434803,
+    0.8947368860244751
+  ],
+  "pearson_r": 0.6824363125594766
+}

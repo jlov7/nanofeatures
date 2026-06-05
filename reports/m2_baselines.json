@@ -1,0 +1,80 @@
+{
+  "layer": 7,
+  "n_pairs": 20,
+  "m_clean": 14.565908432006836,
+  "m_corrupt": -15.064870834350586,
+  "n_active": 7205,
+  "causal_vs_attribution_top64_overlap": 0.984375,
+  "curve": [
+    {
+      "causal": 0.012488073751714197,
+      "attribution": 0.012488073751714197,
+      "diff_mag": 0.0005270979928965619,
+      "magnitude": 2.35596098675144e-05,
+      "random": 0.0,
+      "k": 1,
+      "exact_minus_attribution": 0.0,
+      "exact_minus_diffmag": 0.011960975758817634
+    },
+    {
+      "causal": 0.029710888825833004,
+      "attribution": 0.029710888825833004,
+      "diff_mag": 0.005640080483556678,
+      "magnitude": 2.2948089939259244e-05,
+      "random": -4.80633206768964e-06,
+      "k": 2,
+      "exact_minus_attribution": 0.0,
+      "exact_minus_diffmag": 0.024070808342276324
+    },
+    {
+      "causal": 0.052549516697934576,
+      "attribution": 0.04834779545615279,
+      "diff_mag": 0.005595278602497142,
+      "magnitude": 2.2948089939259244e-05,
+      "random": -4.80633206768964e-06,
+      "k": 4,
+      "exact_minus_attribution": 0.004201721241781788,
+      "exact_minus_diffmag": 0.04695423809543743
+    },
+    {
+      "causal": 0.09051167610097377,
+      "attribution": 0.08962236519899387,
+      "diff_mag": 0.01580412102582623,
+      "magnitude": 0.0005157365963347687,
+      "random": -2.214345845471299e-05,
+      "k": 8,
+      "exact_minus_attribution": 0.0008893109019798978,
+      "exact_minus_diffmag": 0.07470755507514754
+    },
+    {
+      "causal": 0.25182448579014177,
+      "attribution": 0.25182448579014177,
+      "diff_mag": 0.07872800893609075,
+      "magnitude": 0.0006824562399327531,
+      "random": -3.152009735462537e-05,
+      "k": 16,
+      "exact_minus_attribution": 0.0,
+      "exact_minus_diffmag": 0.17309647685405102
+    },
+    {
+      "causal": 0.5129958540344765,
+      "attribution": 0.5190495558355589,
+      "diff_mag": 0.1658938342127649,
+      "magnitude": 0.0005873487984593856,
+      "random": -7.692276992262215e-06,
+      "k": 32,
+      "exact_minus_attribution": -0.006053701801082445,
+      "exact_minus_diffmag": 0.3471020198217115
+    },
+    {
+      "causal": 0.7034401761403459,
+      "attribution": 0.7016032829242753,
+      "diff_mag": 0.5085087252747731,
+      "magnitude": 0.000632633458409649,
+      "random": 0.0011177618730722782,
+      "k": 64,
+      "exact_minus_attribution": 0.001836893216070612,
+      "exact_minus_diffmag": 0.19493145086557284
+    }
+  ]
+}
