@@ -1,5 +1,7 @@
 # nanofeatures
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20611795.svg)](https://doi.org/10.5281/zenodo.20611795)
+
 **When does expensive causal attribution actually beat a free baseline for finding SAE-feature circuits?**
 
 Only when the circuit is distributed across positions. On single-token tasks a gradient-free

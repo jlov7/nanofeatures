@@ -7,6 +7,10 @@ authors:
     orcid: "https://orcid.org/0009-0001-6300-9155"
 version: 1.0.0
 date-released: 2026-06-09
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20611795"
+    description: "Concept DOI (resolves to the latest version)"
 license: MIT
 type: software
 repository-code: "https://github.com/jlov7/nanofeatures"
