@@ -2,7 +2,7 @@
   "title": "nanofeatures: the per-element attribution-cost boundary on Gemma-2-2B and GPT-2",
   "description": "Calibrates a cheap gradient-free feature score against gradient attribution patching on SAE features for Gemma-2-2B and GPT-2. The two methods tie on single-token tasks and diverge on distributed circuits, locating the boundary where the expensive method earns its cost, with paired-bootstrap confidence intervals and pre-registered predictions including negative results. The second part of the nano* trilogy on when expensive interpretability is worth its cost.",
   "creators": [
-    { "name": "Lovell, Jason" }
+    { "name": "Lovell, Jason", "orcid": "0009-0001-6300-9155" }
   ],
   "upload_type": "software",
   "license": "MIT",

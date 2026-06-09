@@ -4,6 +4,7 @@ title: "nanofeatures: the per-element attribution-cost boundary on Gemma-2-2B an
 authors:
   - family-names: Lovell
     given-names: Jason
+    orcid: "https://orcid.org/0009-0001-6300-9155"
 version: 1.0.0
 date-released: 2026-06-09
 license: MIT
