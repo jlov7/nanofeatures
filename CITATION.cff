@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "nanofeatures: the per-element attribution-cost boundary on Gemma-2-2B and GPT-2"
+authors:
+  - family-names: Lovell
+    given-names: Jason
+version: 1.0.0
+date-released: 2026-06-09
+license: MIT
+type: software
+repository-code: "https://github.com/jlov7/nanofeatures"
+url: "https://github.com/jlov7/nanofeatures"
+abstract: >-
+  Calibrates a cheap gradient-free feature score against gradient attribution patching on SAE
+  features for Gemma-2-2B and GPT-2. The two methods tie on single-token tasks and diverge on
+  distributed circuits, locating the boundary where the expensive method earns its cost, with
+  paired-bootstrap confidence intervals and pre-registered predictions including negative results.
+  The second part of the nano* trilogy on when expensive interpretability is worth its cost.
+keywords:
+  - mechanistic interpretability
+  - sparse autoencoders
+  - attribution patching
+  - Gemma
+  - GPT-2
+  - calibration
